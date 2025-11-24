@@ -35,18 +35,17 @@
       }
       .arabic_letters .card
       {
-        background-color: white;
+         background-color: white;
         border: solid  ;
         border-color: rgb(147, 13, 95);
-        border-radius: 20px;
-        margin-right: 10px;
-        margin-bottom: 5px;
-        margin-top: 5px;
-        margin-left: 8px;
+        border-radius: 25px;
+        align-items: center;
         overflow: hidden;
         box-sizing: border-box;
+        justify-content: center;
+        display: flex;
         width: 16em;    
-        transition: 0.3s;            
+        transition: 0.3s;       
       }
       .card img
       {
@@ -73,4 +72,5 @@
         }
       }
        
+
 
