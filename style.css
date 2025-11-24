@@ -37,6 +37,7 @@
       {
          background-color: white;
         border: solid  ;
+        padding: 0;   
         border-color: rgb(147, 13, 95);
         border-radius: 25px;
         align-items: center;
@@ -72,5 +73,6 @@
         }
       }
        
+
 
 
