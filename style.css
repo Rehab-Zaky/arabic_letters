@@ -1,0 +1,62 @@
+     .arabic_letters   
+      {
+        height: 100vh;
+        text-align: center;
+        align-items: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding:30px 70px;    
+      }
+
+      .arabic_letters
+      {
+          
+         background-image:url(images/image.png);   
+         background-size: cover;      
+         background-attachment: fixed;
+      }
+      .arabic_letters h2
+      {
+        font-size: 350%;
+        color: rgb(187, 32, 112);
+        margin-bottom: 20px;
+      }
+     .arabic_letters .container
+      {
+        display: flex;
+        background-blend-mode: overlay;
+        background-color: rgba(237, 100, 191, 0.3);
+        flex-wrap: wrap;
+        justify-content:center;
+        direction: rtl;
+        border-radius: 20px;
+        padding: 15px;
+      }
+      .arabic_letters .card
+      {
+        background-color: white;
+        border: solid  ;
+        border-color: rgb(147, 13, 95);
+        border-radius: 20px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 8px;
+        padding: 0px 10px;
+        width: 16em;       
+         
+      }
+      .card
+      {
+        transition: 2s;
+      }
+      .card:hover
+      {
+        
+         transform :scale(1.2);
+         
+      }
+
+   
+ 
+ 
