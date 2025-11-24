@@ -1,19 +1,19 @@
+     body
+     {
+        background-image:url(images/image.png);   
+         background-position: center;
+         background-size: cover;      
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+     }     
      .arabic_letters   
       {
-        height: 100vh;
+        min-height: 100vh;
         text-align: center;
         align-items: center;
         background-position: center;
         background-repeat: no-repeat;
         padding:30px 70px;    
-      }
-
-      .arabic_letters
-      {
-          
-         background-image:url(images/image.png);   
-         background-size: cover;      
-         background-attachment: fixed;
       }
       .arabic_letters h2
       {
@@ -31,6 +31,7 @@
         direction: rtl;
         border-radius: 20px;
         padding: 15px;
+        gap: 15px;
       }
       .arabic_letters .card
       {
@@ -43,20 +44,31 @@
         margin-top: 5px;
         margin-left: 8px;
         padding: 0px 10px;
-        width: 16em;       
-         
+        width: 16em;    
+        transition: 0.3s;            
       }
-      .card
+      .card img
       {
-        transition: 2s;
-      }
+        width: 100%;
+        height: auto;
+      }       
       .card:hover
-      {
-        
-         transform :scale(1.2);
-         
+      {       
+         transform :scale(1.12);         
       }
-
-   
- 
- 
+      @media(max-width : 768px)
+      {
+        .arabic_letters 
+        {
+          padding: 20px 15px;
+        }
+        .arabic_letters h2
+        {
+          font-size:  250%;
+        }
+        .arabic_letters .card
+        {
+          width: 90%;
+        }
+      }
+       
